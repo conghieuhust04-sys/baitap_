@@ -1,6 +1,13 @@
 #include <stdio.h>
+#include "calc.h"
+
 int main() {
-    printf("Hello Git version 2\n");
+    int a = 10, b = 3;
+
+    printf("Tong = %d\n", sum(a, b));
+    printf("Hieu = %d\n", sub(a, b));
+    printf("Tich = %d\n", mul(a, b));
+
     return 0;
 }
 
