@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+/* Chỉnh sửa lần 1*/
 struct node
 {
     int data;
